@@ -111,7 +111,7 @@
   .features {
     display: block;
     line-height: 3rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 400;
     font-style: normal;
   }
@@ -130,7 +130,7 @@
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    flex-direction:row;
   }
   .card-section-1 {
     display: relative;
@@ -139,7 +139,9 @@
   .offer-1,
   .offer-2,
   .offer-3 {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .bottom {
     display: block;
@@ -400,8 +402,11 @@
 
   @media all and (min-device-width: 320px) and (max-device-width: 700px) {
     .image{
-      width:210Px;
-      height: 210px;
+      height: 115px;
+      width:115px;
+    }
+    .offer-cards {
+      flex-direction: column;
     }
     .details {
       font-size: 2.7rem;
@@ -433,7 +438,7 @@
       height: 95rem;
     }
     .card-section-1 {
-      height: 106rem;
+      height: 80rem;
     }
     .box-content-1,
     .box-content-2 {
@@ -443,10 +448,11 @@
       margin-bottom: 8%;
     }
     .offer-1,
+    .offer-2,
     .offer-3 {
       margin: auto;
-      margin-top: 5%;
-      margin-bottom: 5%;
+      margin-top: 3%;
+      margin-bottom: 3%;
     }
     .btn-primary-2 {
       padding: 1.8rem;
