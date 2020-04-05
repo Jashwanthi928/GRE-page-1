@@ -501,5 +501,16 @@
     .contact-section {
       height: 40vh;
     }
+    .video-section {
+      margin-top: 5%;
+      height: 43rem;
+    }
   }
+  @media only screen and (min-width: 768px) {
+    .video-section {
+      margin-top: 5%;
+      height: 51rem;
+    }
+  }
+
   
