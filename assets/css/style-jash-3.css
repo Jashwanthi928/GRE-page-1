@@ -293,16 +293,17 @@ body {
 }
 .video-section {
   margin-top: 5%;
-  height: 50vh;
+  margin-bottom: 8%;
+  /* height: 50vh; */
 }
 .video-contents {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  /* -ms-flex-wrap: wrap; */
+  flex-direction: row;
+  /* -webkit-box-pack: center;
+  -ms-flex-pack: center; */
   justify-content: center;
 }
 .connect-us {
@@ -333,7 +334,7 @@ body {
 }
 .connect-us {
   margin-top: 5%;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   font-weight: 400;
   font-size: 3.6rem;
 }
@@ -428,11 +429,16 @@ label {
     /* height: 80rem; */
     margin-bottom: 20%;
   }
-  .video-section {
+  /* .video-section {
     height: 80vh;
+  } */
+  .video-contents {
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media only screen and (max-width: 800px) {
+
   /* .card-section-2{
     height: 125vh;
   } */
@@ -444,7 +450,10 @@ label {
     margin-left: -5%;
     margin-top: 4%;
   }
- 
+  iframe {
+    height: 250px;
+    width: 450px;
+  }
 }
 @media all and (min-device-width: 320px) and (max-device-width: 500px) {
   .image{
@@ -468,7 +477,7 @@ label {
   }
   .video-section {
     margin-top: 5%;
-    height: 33rem;
+    /* height: 33rem; */
   }
   .btn-primary-4 {
     font-size: 1.5rem;
