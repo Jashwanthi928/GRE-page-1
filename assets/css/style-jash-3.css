@@ -365,9 +365,9 @@ body {
   align-self: center;
 }
 input {
-  height: 3.5rem;
+  height: 4rem !important;
   border: 1px solid #dedede;
-  width: 30rem;
+  width: 30rem !important;
   border-width: 1px;
   border-radius: 5px;
   margin-bottom: 3%;
