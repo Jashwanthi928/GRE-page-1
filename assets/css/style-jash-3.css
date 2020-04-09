@@ -154,12 +154,12 @@ body {
   margin-bottom: 2%;
   margin-top: 1%;
 }
-.btn-primary-2 {
-  /* position: absolute;
-  left: 50%; */
-  /* -webkit-transform: translate(-50%);
+/* .btn-primary-2 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
   -ms-transform: translate(-50%);
-  transform: translate(-50%); */
+  transform: translate(-50%);
   text-decoration: none;
   background-color: #f87400;
   color: #fff;
@@ -169,11 +169,32 @@ body {
   font-size: 1.7rem;
   text-align: center;
   border-radius: 1rem;
+} */
+.btn-primary-2 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  text-decoration: none;
+  background-color: #f87400;
+  color: #fff;
+  font-weight: 400;
+  padding: 1.4rem;
+  margin-top: 4rem;
+  font-size: 1.7rem;
+  width: 27rem;
+  text-align: center;
+  border-radius: 1rem;
 }
 .card-section-2 {
-  height: 80vh;
+  /* height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-attachment: fixed;
   background-size: cover;
+  margin-bottom: 5%;
   background-image: -o-linear-gradient(
       top,
       rgba(0, 0, 0, 0.8),
@@ -253,11 +274,11 @@ body {
   margin-top: 4%;
 }
 .btn-primary-3 {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%);
+  /* position: absolute; */
+  /* left: 50%; */
+  /* -webkit-transform: translate(-50%);
   -ms-transform: translate(-50%);
-  transform: translate(-50%);
+  transform: translate(-50%); */
   text-decoration: none;
   background-color: #f87400;
   color: #fff;
@@ -268,6 +289,7 @@ body {
   width: 27rem;
   text-align: center;
   border-radius: 1rem;
+  margin-bottom: 10%;
 }
 .video-section {
   margin-top: 5%;
@@ -411,9 +433,9 @@ label {
   }
 }
 @media only screen and (max-width: 800px) {
-  .card-section-2{
+  /* .card-section-2{
     height: 125vh;
-  }
+  } */
   .boxes{
     flex-direction: column;
     align-items: center;
@@ -458,9 +480,9 @@ label {
     font-size: 2.6rem;
     text-align: center;
   }
-  .card-section-2 {
+  /* .card-section-2 {
     height: 95rem;
-  }
+  } */
   .card-section-1 {
     margin-bottom: 33%;
   }
