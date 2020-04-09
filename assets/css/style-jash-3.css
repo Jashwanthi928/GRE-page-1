@@ -422,6 +422,12 @@ label {
   }
 }
 @media only screen and (max-width: 800px) {
+  .heading-primary {
+    font-size: 3rem;
+  }
+  .heading-city {
+    font-size: 5rem;
+  }
 
   /* .card-section-2{
     height: 125vh;
