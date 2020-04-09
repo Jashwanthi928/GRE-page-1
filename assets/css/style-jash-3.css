@@ -412,6 +412,14 @@ label {
     flex-direction: column;
     align-items: center;
   }
+  .btn-primary-4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .connect-us {
+    margin-left: 0%;
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 800px) {
 
@@ -429,6 +437,15 @@ label {
   iframe {
     height: 250px;
     width: 450px;
+  }
+  .connect-us {
+    margin-left: 0%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media all and (min-device-width: 320px) and (max-device-width: 500px) {
