@@ -230,7 +230,7 @@ body {
   display: flex;
   /* -webkit-box-pack: center;
   -ms-flex-pack: center; */
-  justify-content: center;
+  justify-content: space-between;
   /* -ms-flex-wrap: wrap; */
   flex-direction: row;
   margin-top: 3rem;
@@ -437,8 +437,12 @@ label {
     align-items: center;
   }
   .box-content-2{
-    margin-left: -5%;
     margin-top: 4%;
+  }
+  .box-content-1,
+  .box-content-2 {
+    margin: auto;
+    margin-top: 5%;
   }
   iframe {
     height: 250px;
