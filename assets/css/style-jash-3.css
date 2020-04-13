@@ -31,7 +31,7 @@ body {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ),
-    url(../img/jash-img-3/header.jpg);
+    url(https://mernlmsassets.s3.ap-south-1.amazonaws.com/LP/assets/img/jash-img-3/header.jpg);
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -39,13 +39,13 @@ body {
       from(rgba(0, 0, 0, 0.8)),
       to(rgba(0, 0, 0, 0.8))
     ),
-    url(../img/jash-img-3/header.jpg);
+    url(https://mernlmsassets.s3.ap-south-1.amazonaws.com/LP/assets/img/jash-img-3/header.jpg);
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ),
-    url(../img/jash-img-3/header.jpg);
+    url(https://mernlmsassets.s3.ap-south-1.amazonaws.com/LP/assets/img/jash-img-3/header.jpg);
 }
 .header {
   padding: 1%;
@@ -200,7 +200,7 @@ body {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ),
-    url(../img/jash-img-3/convocation.png);
+    url(https://mernlmsassets.s3.ap-south-1.amazonaws.com/LP/assets/img/jash-img-3/convocation.png);
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -208,13 +208,13 @@ body {
       from(rgba(0, 0, 0, 0.8)),
       to(rgba(0, 0, 0, 0.8))
     ),
-    url(../img/jash-img-3/convocation.png);
+    url(https://mernlmsassets.s3.ap-south-1.amazonaws.com/LP/assets/img/jash-img-3/convocation.png);
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ),
-    url(../img/jash-img-3/convocation.png);
+    url(https://mernlmsassets.s3.ap-south-1.amazonaws.com/LP/assets/img/jash-img-3/convocation.png);
 }
 .offer-txt-2 {
   display: block;
@@ -541,30 +541,3 @@ label {
 
   }
 }
-/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .heading-primary {
-    margin-top: 4%;
-  }
-  .card-section-1 {
-    height: 45rem;
-  }
-  .offer-1,
-  .offer-2,
-  .offer-3 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .banner {
-    height: 50vh;
-  }
-  .card-section-2 {
-    height: 55vh;
-  }
-  .contact-section {
-    height: 40vh;
-  }
-} */
-
